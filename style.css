@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 250vh;
+    background-color: rgb(216, 230, 255);
+}
+@font-face {
+    font-family: Godiva-Reguler;
+    src: url("Godiva-Reguler.ttf");
+}
+@font-face {
+    font-family: sb;
+    src: url("FreeSansBold-Rdmo.otf");
+}
+@font-face {
+    font-family: past;
+    src: url("PastiRegular-mLXnm.otf");
+}
+.section1{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(255,255,255,0.1)),url(./images/header-background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat
+}
+.nav{
+    height: 20%;
+    padding-top: 100px;
+    font-size: 20px;
+    font-family: sb;
+}
+.logo{
+    float: left;
+    margin-right: 30%;
+    margin-left: 13%;
+    font-weight: 200;
+    color: aliceblue;
+    font-size: 70px;
+    position: relative;
+    bottom: 12%;
+    font-family: Godiva-Reguler;
+}
+.logo img{
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
+    float: left;
+    position: relative;
+    bottom: 6px;
+}
+.logo p{
+    display: inline;
+    position: relative;
+    top: 10px;
+    margin: 6px;
+}
+.links a{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.nav a:hover{
+    color: rgb(119, 220, 220);
+}
+.welcome{
+    font-family: sb;
+    text-align: center;
+    color: aliceblue;
+    position: relative;
+    top: 10%;
+}
+.welcome h1{
+    font-size: 110px;
+}
+.welcome p{
+    font-size: 25px;
+    font-weight: 100;
+}
+button{
+    font-size: 25px;
+    background-color: rgb(43, 153, 120);
+    margin-top: 40px;
+    width: fit-content;
+    margin-left: auto;
+    border: 4px solid rgb(43, 153, 120);
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: transparent;
+}
+.section2{
+    font-family: sb;
+}
+.card{
+    position: absolute;
+    width: 90%;
+    margin-top: 100px;
+}
+.card img{
+    float: right;
+    border-radius: 20px;
+    height: 600px;
+    width: 700px;
+    box-shadow: 50px 30px rgb(218, 193, 141);
+}
+.text{
+    position: relative;
+    top: 30px;
+    left: 10%;
+    padding-left: 200px;
+}
+.text h1{
+    font-size: 40px;
+}
+.text p{
+    margin-top: 20px;
+    color: rgb(94, 94, 94);
+    font-size: 16px
+}
+.section3{
+    height: 80vh;
+    position: relative;
+    top: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(255,255,255,0.1)),url("./images/details-2-background.jpg");
+    color: aliceblue;
+}
+.stats{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(86, 86, 86);
+    font-family: Godiva-Reguler;
+}
+.stats h1{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(110,195,115,1) 0%, rgb(113, 182, 166) 47%, rgba(86,159,173,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.total{
+    position: relative;
+    top: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.heading{
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    letter-spacing: 4px;
+    top: 20px;
+    left: 1%;
+    width: fit-content;
+    font-family: past;
+}
+.heading p{
+    color: rgb(255, 255, 255);
+}
+.vid{
+    width: 50%;
+    margin: auto;
+    padding: 70px;
+}
+.vid iframe{
+    border-radius: 40px;
+}
